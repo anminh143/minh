@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>	
 <head>
 	<title>PHP</title>
 </head>
