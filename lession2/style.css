@@ -1,0 +1,65 @@
+body{
+	background-color: #FFFFCC;
+}
+h2{
+	text-decoration: underline;
+}
+.navigation{
+	position: absolute;
+	margin-left: 25%;
+	text-align: center;
+	}
+.tablesectionOne{
+	table-layout: fixed;
+	text-align: center;
+	background-color: #FFFFDD;
+	position: absolute;
+	top: 7em;
+}
+.tablesectionTwo{
+	table-layout: fixed;
+	text-align: center;
+	background-color: #FFFFDD;
+	position: absolute;
+	top: 7em;
+}
+.tablesectionThree{
+	table-layout: fixed;
+	text-align: center;
+	background-color: #FFFFDD;
+	position: absolute;
+	top: 7em;
+}
+.tablesectionFour{
+	table-layout: fixed;
+	text-align: center;
+	background-color: #FFFFDD;
+	position: absolute;
+	top: 7em;
+}
+.CAPTION{
+	background-color: rgb(255,185,115);
+	font-family: arial;
+	font-size: 1em;
+}
+th,td{
+	border-style: solid;
+	border-width: thin;
+	border-color: #D0D0D0;
+	empty-cells: show;
+}
+.border{
+	border-style: solid;
+	border-width: thin;
+	border-radius: 14px;
+	border-color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	font-size: 20px;
+	background-color: #58cc65;
+	font-size: 20px;
+}
+table{
+	left: 1%;
+}
