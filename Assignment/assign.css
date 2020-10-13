@@ -1,0 +1,63 @@
+<style type="text/css">
+
+		.row{
+			width: 100%;
+		}
+		.topbar{
+			width: 100%;
+			background-color: grey;
+			min-height: 80px;
+
+		}
+		.topbar .topbar-left{
+			float: left;
+			width: 70%;
+			display: flex;
+		}
+		.topbar .topbar-right{
+			float: left;
+			width: 25%;
+			text-align: right;
+			padding-top: 15px;
+		}
+		.topbar .topbar-right img{
+			float: left;
+			padding: 5px;
+			margin-right: 5px;
+
+		}
+		.main{
+			width: 100%;
+			display: block;
+		}
+		.topbar ul {
+			list-style-type: none;
+			display: flex;
+		}
+		.topbar ul li{
+			float: left;
+			padding: 10px;
+			margin: 5px;
+			color: white;
+		}
+		.topbar .topbar-left img{
+			float: left;
+			padding: 15px;
+			margin-left: 8px;
+		}
+		.main-left{
+			float: left;
+			width: 30%;	
+			background-color: red;
+			min-height: 800px;
+		}
+		.main-main{
+			float: left;
+			width: 70%;	
+		}
+		.footer{
+			float: left;
+			width: 100%;
+			background-color: grey;
+		}
+	</style>
