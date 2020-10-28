@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quan ly dang ky</title>
+</head>
+<body>
+	<form method="post" onsubmit="return saveData()">
+		<p>
+			<label>Full name:</label>
+			<input required type="name" name="Fullname" placeholder="Enter Fullname" id="Fullname">
+		</p>
+		<p>
+			<label>Age:</label>
+			<input required type="Age" name="Age" placeholder="Enter Age" id="Age" min="0" max="100">
+		</p>
+		<p>
+			<label>Email:</label>
+			<input required type="Email" name="Email" placeholder="Enter Email" id="Email">
+		</p>
+		<button>Sign up</button>
+		</form>
+	<script type="text/javascript">
+		function saveData(){
+			Fullname=document.getElementsByid('Fullname').value
+			Age=document.getElementsByid('Age').value
+			Email=document.getElementsByid('Email').value
+
+			console.log(Fullname)
+			console.log(Age)
+			console.log(Email)
+
+			localStorage.setItem('Fullname.db',Fullname)
+			localStorage.setItem('Age.db',Age)
+			localStorage.setItem('Email.db',Email)
+
+			return false;
+
+		}
+	</script>
+</body>
+</html>

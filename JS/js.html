@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PTB1</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+		}
+		h1{
+			margin-top: 0px;
+			padding-top: 9px;
+		}
+		.row{
+			width: 100%
+
+		}
+		.header{
+			width: 100%;
+			background-color: blue;
+			min-height: 40px;
+			font-size: 10px;
+			color: white;
+			font-family: all;
+			margin-bottom: 20px; 
+
+		}
+		.menu{
+			float: left;
+			display: block;
+
+		}
+		.border{
+
+		}
+	</style>
+</head>
+<body>
+<div class="row">
+	<div class="header">
+		<h1>Giải phương trình bậc 1</h1>
+	</div>
+<!-- 	<div class="menu">
+		<div>
+			Nhập giá trị A
+		</div>
+		<div>
+			Nhập giá trị B
+		</div>
+		<div>
+			In Kết Quả
+		</div>
+	</div> -->
+</div>	
+<script language="javascript">
+
+    // Hàm cộng hai số
+    function tinh_tong(a, b)
+    {
+        return a + b;
+    }
+
+    // Lấy thông tin từ người dùng
+    var a = parseInt(prompt("Nhập số a"));
+    var b = parseInt(prompt("Nhập số b"));
+
+    // Tính tổng
+    var tong = tinh_tong(a, b);
+
+    // In ra màn hình
+    alert("Tổng hai số " + a + " + " + b + " là " + tong);
+
+</script>
+</body>
+</html>

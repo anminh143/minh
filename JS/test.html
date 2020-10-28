@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object & Array tutorial</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table width="100%" border="1" cellspacing="3" cellpadding="3">
+		<thead>
+			<th>No</th>
+			<th>Full Name</th>
+			<th>Gender</th>
+			<th>Age</th>
+			<th>Email</th>
+			<th>Address</th>
+		</thead>
+		<tbody>
+<script type="text/javascript">
+	//khoi tao mang -> chua danh sach sinh vien
+	var studentList = []
+	//khoi tao ra 10 sinh vien -> add vao mang studentlist
+	for(i=0;i<10;i++) {
+		var student = {
+			"fullname": "Tran Van " + 1,
+			"gender": "Nam",
+			"age": i,
+			"email": i + "@gmail.com",
+			"address": "HN_"+1
+		}
+		studentList.push(student)
+	}
+	//Hien thi sinh vien co trong mang studentList ra table
+	//studentList.length -> tra ve so phan tu trong mang
+	for(i=0;i<studentList.length;i++) {
+		//cach 1
+		document.writeln(`<tr>
+				<td>${i+1}</td>
+				<td>${studentList[i].fullname}</td>
+				<td>${studentList[i].gender}</td>
+				<td>${studentList[i].age}</td>
+				<td>${studentList[i].email}</td>
+				<td>${studentList[i].address}</td>
+			</tr>`)
+		//cach 2
+		// document.writeln('<tr>'+
+		// 		'<td>'+(i+1)+'</td>'+
+		// 		'<td>'+studentList[i].fullname+'</td>'+
+		// 		'<td>'+studentList[i].gender+'</td>'+
+		// 		'<td>'+studentList[i].age+'</td>'+
+		// 		'<td>'+studentList[i].email+'</td>'+
+		// 		'<td>'+studentList[i].address+'</td>'+
+		// 	'</tr>')
+	}
+</script>
+		</tbody>
+	</table>
+</body>
+</html>
