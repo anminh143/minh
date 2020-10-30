@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<style type="text/css">
+		body{
+			background-image:url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-blue-mobile-phone-scan-code-payment-technology-banner-background-image_260854.jpg);
+
+		}
+		.formsize{
+			font-size: 30px;
+			font-family: fantasy;
+		}
+
+		.button{
+			font-size: 20px;
+			border-radius: 15px;
+			cursor: pointer;
+		}
+		.button hover{
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<br><br><br>
+	<form class="formsize">
+		<div>
+			<label>Your fullname:</label>
+			<input required="" type="name" name="fullname" placeholder="Enter your fullname">
+		</div>
+		<div>
+			<label>Your address:</label>
+			<input required="" type="address" name="address" placeholder="Enter your address">
+		</div>
+		<div>
+			<label>Phone Number:</label>
+			<input required="" type="Phone" name="phonenumber" placeholder="Enter your phone number">
+		</div>
+		<div>
+			<label>Email:</label>
+			<input type="Email" name="Email" placeholder="Enter your eamil">
+		</div>
+		<div>
+			<label>Amount:</label>
+			<input type="number" name="number">
+		</div>
+		<div>
+			<label for="pay">Payment methods:</label>
+			<select id="pay">
+				<option value="on delivery">Payment on delivery</option>
+				<option value="credit card">Credit Card</option>
+				<option value="ATM banking">ATM Banking</option>
+			</select>
+		</div>
+		<div>
+			<button onclick="payment()" class="button">Go Buy</button>
+		</div>
+	</form>
+	<script type="text/javascript">
+		function payment(){
+			alert("You had pay the bill. We will let you know soon")
+		}
+	</script>
+</body>
+</html>
